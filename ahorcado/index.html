@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ahorcado</title>
+</head>
+<body>
+    <div class="container grid-md">
+        <div class="columns">
+            <div class="adivina">
+                <div class="column col-12 adivina">
+                    <h5>Adivina la palabra</h5>
+                </div>
+            </div>
+
+            <div class="column col-12">
+                <div class="columns">
+                    <div class="column col-8 col-sm-12 ">
+                        <div id="word"></div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column col-8 col-sm-12">
+                        <div id="word"></div>
+                    </div>
+
+                    <div class="column col-4 col-sm-12">
+                        <img id="palo" src="img/palo.jpg" alt="Palo">
+                    </div>
+                </div>
+            </div>
+            <div class="column col-12">
+                <div class="columns bg-gray" id="letras">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script  src="js/palabras.js"></script>   
+    <script  src="js/app.js"></script>  
+</body>
+</html>

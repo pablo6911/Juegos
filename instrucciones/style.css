@@ -1,0 +1,7 @@
+.img-fluid{
+    height: 25%;
+    width: 25%;
+}
+ul, p>b{
+    color: red;
+}

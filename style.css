@@ -1,0 +1,105 @@
+#navbar-example2 {
+    background-color: rgb(129, 129, 248);
+    box-sizing: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+
+#navbar-example2 {
+    width: 100%;
+    position: fixed;
+    border: none;
+}
+
+#navbarNav li a:hover {
+    background: white;
+    color: black;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#scrollspyHeading1 {
+    margin-top: 100px;
+}
+
+#bienvenido {
+    font-family: "time new roman";
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 5px 2px 5px black;
+}
+
+
+/* home */
+
+.home {
+    background-color: #ece7e5;
+    font-family: "time new roman";
+    font-size: 25px;
+}
+
+.p {
+    font-weight: 600;
+}
+
+
+/* Potfolio */
+
+#cuadros {
+    background-color: rgb(146, 146, 247);
+    border: none;
+}
+
+#scrollspyHeading2 {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.texto-p {
+    font-family: "time new roman";
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 20px black;
+    margin-top: 25px;
+}
+
+.texto-g {
+    font-family: "time new roman";
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+    text-shadow: 5px 2px 5px black;
+}
+
+
+.ultimo {
+    margin: auto;
+}
+
+
+/* //------------------------nuevos archivos  */
+
+
+/*footer  */
+
+.footer1 {
+    background-color: #5d5df7;
+    box-shadow: 2px 2px 8px black;
+    width: 100%;
+    height: 2%;
+    font-family: "time new roman";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 -1.5% 0;
+}
+/* centrar los textos de las descripcciones de la img */
+a>p{
+    text-align: center;
+}

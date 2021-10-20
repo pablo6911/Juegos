@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(129, 129, 248);
+    font: 400 16px/1.5em sans-serif;
+    padding-top: 5%;
+}
+
+.adivina{
+    
+        font-size: 80px;
+        font-weight: 400;
+        color: white;
+        text-shadow: 2px 2px 20px black;
+        margin-top: 25px;
+    
+
+}
+.cuadroLetras{
+
+    background-color:#ece7e5;
+    width:70%;
+}
+.container{
+    height: 50%;
+}
+
+.abc {
+    display: inline-block;
+    padding: 0.7em;
+    margin: 3px;
+    width: 60px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px dashed #5755d9;
+    text-transform: uppercase;
+}
+.manito{
+    cursor: pointer;
+}
+
+.oculto {
+    display: inline-block;
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px;
+    width: 50px;
+    text-align: center;
+    border-bottom: 3px solid rgb(238, 28, 28);
+    text-transform: uppercase;
+}
+
+#palo{
+    transform: scaleX(-1);
+}
+
